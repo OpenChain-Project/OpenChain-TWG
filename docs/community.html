@@ -1,0 +1,63 @@
+---
+layout: default
+title: Community
+office_hours_link: https://github.zoom.us/j/221410810
+redirect_from:
+  - /contribute/
+links:
+- octicon: unmute
+  pretext: "收聽podcast @Moxa"
+  title: "TechTalk 105: Automating Compliance with Openchain"
+  href: https://frontside.io/podcast/xxx
+- octicon: unmute
+  pretext: "收聽podcast @Moxa"
+  title: "The TechTalk #264: Automating Opensource management with Openchain"
+  href: https://changelog.com/podcast/xxx
+- octicon: device-camera-video
+  pretext: "觀看來自OpenChain Summit的演講  @Moxa"
+  title: "Extending with Openchain: easy integrations with Opensource"
+  href: https://www.youtube.com/watch?v=AJXDdkd9U7M
+- octicon: device-camera-video
+  pretext: "觀看來自OpenChain Summit的演講 @Moxa"
+  title: "Automating your Workflow with Openchain"
+  href: https://vimeo.com/287507595
+---
+
+<div class="container-lg px-3 featurette">
+  <h1 class="alt-h2 text-center">加入社群</h1>
+  <p class="alt-lead col-md-8 text-center text-gray mx-auto">
+    我們很高興您願意為這個計畫做出貢獻。您的幫助至關重要。
+  </p>
+
+  <div class="text-center mt-6">
+    <a class="btn btn-outline d-inline-block mb-1 mb-md-0 mr-0 mr-md-3" href="https://OpenChain-Project-slackin.herokuapp.com/">
+      Chat on Slack
+    </a>
+
+    <a class="btn btn-outline d-inline-block mb-1 mb-md-0 mr-0 mr-md-3" href="https://github.com/OpenChain-Project">
+      Contribute on GitHub
+    </a>
+
+    <a class="btn btn-outline d-inline-block mb-1 mb-md-0 mr-0 mr-md-3" href="https://instagram.com/OpenChain-Project">
+      Follow on Instagram
+    </a>
+  </div>
+
+
+
+  <div class="border-top container-md py-4">
+    <div class="d-flex gutter flex-wrap">
+      {% for link in page.links %}
+      <div class="col-md-6 col-12 mb-4">
+        {{ link.pretext }}:<br>
+        {% octicon {{ link.octicon }} class:"mr-2 text-gray" %}
+        <a href="{{ link.href }}">{{ link.title }}</a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+
+<script src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async></script>

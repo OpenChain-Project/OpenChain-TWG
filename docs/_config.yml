@@ -1,1 +1,49 @@
-theme: jekyll-theme-cayman
+title: OpenChain
+description: 台灣WorkGroup
+permalink: pretty
+
+exclude:
+  - Gemfile*
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
+  - node_modules
+  - script
+  - vendor
+
+markdown: GFM
+
+sass:
+  style: :compressed
+  sass_dir: _sass
+  load_paths:
+    - node_modules
+    - node_modules/**/*/node_modules
+
+collections:
+  news:
+    output: true
+    permalink: /news/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: news
+  - scope:
+      path: "docs"
+    values:
+      layout: docs
+
+plugins:
+  - jekyll-mentions
+  - jekyll-octicons
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+
+branch: master

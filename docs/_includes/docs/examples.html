@@ -1,0 +1,7 @@
+{% assign news = site.news | sample:4 %}
+
+<ul>
+{% for app in news %}
+  <li><a href="/OpenChain-TWG/{{ app.url }}">{{ app.title }}</a> - {{ app.description }}</li>
+{% endfor %}
+</ul>

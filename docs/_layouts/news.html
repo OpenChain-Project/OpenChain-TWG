@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+<div class="page-section">
+  <div class="container-lg px-3">
+    <div class="d-md-flex d-md-flex-row gutter-md-spacious">
+      <div class="col-md-9">
+        <h1 class="alt-h1 lh-condensed-ultra">{{ page.title }}</h1>
+        <div class="text-gray-light">{{ page.description }}</div>
+      </div>
+      <div class="col-md-3 text-center">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bg-gray-dark text-white">
+  <div class="container-lg px-3 py-6">
+    <div class="d-md-flex gutter-md-spacious">
+      <div class="col-md-9">
+        <div class="sixteen-by-nine rounded-1 bg-white overflow-hidden">
+          {% for screenshot in page.screenshots %}
+            <input class="switcher-input" id="screenshot-{{ forloop.index }}" type="radio" name="switcher"{% if forloop.index == 1 %} checked{% endif %}>
+            <div class="switcher-item content d-flex flex-items-center flex-justify-center p-3">
+              <img src="{{ screenshot }}" style="max-width:100%; max-height:100%;" alt="Screenshot of {{ page.title }} app">
+            </div>
+          {% endfor %}
+        </div>
+        {% if page.screenshots.size > 1 %}
+        <div class="d-flex flex-items-center flex-justify-center mt-3">
+          {% for screenshot in page.screenshots %}
+            <label for="screenshot-{{ forloop.index }}" class="rounded-1 border border-gray-light mx-2" style="width:125px; height: 70px; background-image: url({{ screenshot }}); background-size: cover; background-position: center; cursor: pointer;">
+            </label>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      <div class="col-md-3">
+        <h4 class="mb-1 alt-h4 text-gray">Authors</h4>
+        {% for author in page.authors %}
+          <p>
+            <a class="text-inherit" href="https://github.com/{{ author }}">{{ author }}</a>
+          </p>
+        {% endfor %}
+        <h4 class="mb-1 alt-h4 text-gray">Updated</h4>
+        <p><span class="text-white">{{ page.updated | date: "%B %e, %Y"}}</p>
+
+        {% if page.organizations %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="py-6">
+  <div class="container-lg px-3">
+    <div class="d-md-flex gutter-md-spacious">
+      <div class="col-md-9">
+        <div class="markdown-body">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
