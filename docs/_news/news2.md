@@ -1,6 +1,6 @@
 ---
 title: 2019台北開源合規工作坊
-description: 開源軟體在台灣業界的應用非常廣泛，但是想要將產品做到合於開源授權規定，卻是一件令許多商業使用者感到困難的事情。近年來「開源合規 (Open Source Compliance) 」這個概念浮上檯面，相關的討論發展開來，產生了各種方法與工具，讓使用者能夠以較便利並有次序的方式來達到開源合規的狀態。 這場工作坊將會介紹目前國際最新的開源合規資訊與工具，同時也將有國內外的公司來分享開源合規的實務經驗，以及在過程中如何克服遭遇到的困難。若是你正在利用開源軟體，那麼這將是本年度你最不該錯過的一場活動！
+description: 本年度你最不該錯過的一場活動！
 screenshots:
 - https://raw.githubusercontent.com/OpenChain-Project/OpenChain-TWG/master/docs/images/meetings/20190927_workshop/IMG_8970.JPG
 - https://raw.githubusercontent.com/OpenChain-Project/OpenChain-TWG/master/docs/images/meetings/20190927_workshop/IMG_8792.JPG
@@ -12,6 +12,7 @@ organizations:
 - OpenChain Taiwan
 - moxa
 ---
+開源軟體在台灣業界的應用非常廣泛，但是想要將產品做到合於開源授權規定，卻是一件令許多商業使用者感到困難的事情。近年來「開源合規 (Open Source Compliance) 」這個概念浮上檯面，相關的討論發展開來，產生了各種方法與工具，讓使用者能夠以較便利並有次序的方式來達到開源合規的狀態。 這場工作坊將會介紹目前國際最新的開源合規資訊與工具，同時也將有國內外的公司來分享開源合規的實務經驗，以及在過程中如何克服遭遇到的困難。若是你正在利用開源軟體，那麼這將是本年度你最不該錯過的一場活動！
 
 ## 議程
 09:30-10:00 |     Check-In
