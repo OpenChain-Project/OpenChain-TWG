@@ -2,8 +2,15 @@
 title: 2019台北開源合規工作坊
 description: 本年度你最不該錯過的一場活動！
 screenshots:
-- https://raw.githubusercontent.com/OpenChain-Project/OpenChain-TWG/master/docs/images/meetings/20190927_workshop/IMG_8970.JPG
-- https://raw.githubusercontent.com/OpenChain-Project/OpenChain-TWG/master/docs/images/meetings/20190927_workshop/IMG_8792.JPG
+- https://raw.githubusercontent.com/OpenChain-Project/OpenChain-TWG/master/images/meetings/20190927_workshop/IMG_8970.JPG
+- https://raw.githubusercontent.com/OpenChain-Project/OpenChain-TWG/master/images/meetings/20190927_workshop/IMG_8792.JPG
+- https://raw.githubusercontent.com/OpenChain-Project/OpenChain-TWG/master/images/meetings/20190927_workshop/IMG_8812.JPG
+- https://raw.githubusercontent.com/OpenChain-Project/OpenChain-TWG/master/images/meetings/20190927_workshop/IMG_8829.JPG
+- https://raw.githubusercontent.com/OpenChain-Project/OpenChain-TWG/master/images/meetings/20190927_workshop/IMG_8833.JPG
+- https://raw.githubusercontent.com/OpenChain-Project/OpenChain-TWG/master/images/meetings/20190927_workshop/IMG_8859.JPG
+- https://raw.githubusercontent.com/OpenChain-Project/OpenChain-TWG/master/images/meetings/20190927_workshop/IMG_8867.JPG
+- https://raw.githubusercontent.com/OpenChain-Project/OpenChain-TWG/master/images/meetings/20190927_workshop/IMG_8918.JPG
+- https://raw.githubusercontent.com/OpenChain-Project/OpenChain-TWG/master/images/meetings/20190927_workshop/IMG_8938.JPG
 authors:
 - alvinchchen
 - szlin
