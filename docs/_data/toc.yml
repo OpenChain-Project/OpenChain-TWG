@@ -1,8 +1,6 @@
 入門文件:
   - docs/README.md
+  - docs/curriculum.md
 進階文件:
 參考資料:
-  - title: OpenChain 2.0 繁體中文規格書
-    url: "https://github.com/OpenChain-Project/Specification-Translations/raw/master/zh-Hant/2.0/OpenChain-Specification-2-0-zh-Hant.pdf"
-  - title: OpenChain 2.0 課程
-    url: "https://github.com/OpenChain-Project/Reference-Material/blob/master/Training-Slides/Community/zh-Hant/2.0/openchain-curriculum-for-2-0-zh-Hant.pdf"
+  - docs/spec.md

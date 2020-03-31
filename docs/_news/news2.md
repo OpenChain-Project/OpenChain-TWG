@@ -1,6 +1,6 @@
 ---
-title: 2019台北開源合規工作坊
-description: 本年度你最不該錯過的一場活動！
+title: 2019 臺北開源合規工作坊
+description: 分享開源合規的實務經驗、開源合規資訊與工具
 screenshots:
 - https://raw.githubusercontent.com/OpenChain-Project/OpenChain-TWG/master/images/meetings/20190927_workshop/IMG_8970.JPG
 - https://raw.githubusercontent.com/OpenChain-Project/OpenChain-TWG/master/images/meetings/20190927_workshop/IMG_8792.JPG
