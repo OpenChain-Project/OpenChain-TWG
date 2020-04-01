@@ -1,0 +1,17 @@
+---
+layout: default
+title: 最新新聞
+---
+
+<div class="bg-gray-light">
+  <div class="container-lg px-3 page-section">
+    <h1 class="alt-h2">{{ page.title }}</h1>
+
+    <div class="d-md-flex flex-wrap gutter flex-auto">
+      {% assign news = site.news | sort: 'installations' | reverse %}
+      {% for app in news %}
+        {% include app.html app=app %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

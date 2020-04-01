@@ -1,0 +1,50 @@
+---
+layout: default
+title: Community
+office_hours_link: https://github.zoom.us/j/221410810
+redirect_from:
+  - /contribute/
+links:
+- octicon: unmute
+  pretext: "OpenChain featured on the OWASP 24/7 podcast"
+  title: "The OpenChain Project with Shane Coughlan"
+  href: https://blog.sonatype.com/the-openchain-project-with-shane-coughlan-podcast-interview
+- octicon: device-camera-video
+  pretext: "觀看 OpenChain 分享"
+  title: "OpenChain - Great Open Source Compliance for Everyone - April 2019"
+  href: https://www.youtube.com/watch?v=e5q0uNac3YI
+---
+
+<div class="container-lg px-3 featurette">
+  <h1 class="alt-h2 text-center">加入社群</h1>
+  <p class="alt-lead col-md-8 text-center text-gray mx-auto">
+    我們很高興您願意為這個 OpenChain 計畫做出貢獻。您的幫助至關重要。
+  </p>
+
+  <div class="text-center mt-6">
+    <a class="btn btn-outline d-inline-block mb-1 mb-md-0 mr-0 mr-md-3" href="https://lists.openchainproject.org/g/taiwan-wg">
+      臺灣官方社群郵遞論壇
+    </a>
+    <a class="btn btn-outline d-inline-block mb-1 mb-md-0 mr-0 mr-md-3" href="https://github.com/OpenChain-Project/OpenChain-TWG">
+      在 Github 上進行貢獻
+    </a>
+  </div>
+  <div class="text-center mt-6">
+
+  </div>
+  <div class="border-top container-md py-4">
+    <div class="d-flex gutter flex-wrap">
+      {% for link in page.links %}
+      <div class="col-md-6 col-12 mb-4">
+        {{ link.pretext }}:<br>
+        {% octicon {{ link.octicon }} class:"mr-2 text-gray" %}
+        <a href="{{ link.href }}">{{ link.title }}</a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+
+<script src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async></script>
